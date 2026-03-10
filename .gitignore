@@ -1,0 +1,32 @@
+# ===== ASP.NET Core / Visual Studio =====
+*.user
+*.suo
+*.userprefs
+.vs/
+bin/
+obj/
+*.log
+*.sqlite
+*.db
+
+# Secrets - NON committare mai questi!
+appsettings.Production.json
+**/secrets.json
+
+# ===== Android / Android Studio =====
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+
+# ===== Generale =====
+*.zip
+Thumbs.db
